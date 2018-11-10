@@ -13,7 +13,7 @@ if __name__ == '__main__':
     baseImg = CreateImage.construct_image(1400, 700, 20, 20)
 
     # write quote and author text
-    baseImg = CreateImage.draw_text(baseImg, (70, 55), (1200, 450), 'Ubuntu-B.ttf', 300, '"' + arg1 + '"')
+    baseImg = CreateImage.draw_text(baseImg, (70, 55), (1330, 450), 'Ubuntu-BI.ttf', 300, '"' + arg1 + '"')
     baseImg = CreateImage.draw_text(baseImg, (900, 440), (1380, 500), 'Ubuntu-L.ttf', 50, "~" + arg2)
 
     baseImg.convert('RGB').save('output_text.png')
