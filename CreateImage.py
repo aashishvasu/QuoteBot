@@ -60,7 +60,7 @@ def draw_text(imgbuffer, topLeft=(10, 10), bottomRight=(20, 20), fontPath='Ubunt
     lines = text_wrap(text, font, textbox_width[0])
 
     while len(lines) > ((bottomRight[1] - topLeft[1]) / line_height):
-        fontsize = fontsize-5
+        fontsize = fontsize-random.randint(4, 7)
         print("new font size: " + str(fontsize))
 
         # Reconstruct font
