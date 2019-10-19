@@ -10,7 +10,7 @@ else:
 
 if __name__ == '__main__':
     # construct base image
-    baseImg = CreateImage.construct_image(1400, 700, 20, 20)
+    baseImg = CreateImage.construct_image(1400, 600, 20, 20)
 
     # write quote and author text
     baseImg = CreateImage.draw_text(baseImg, (70, 55), (1330, 450), 'Ubuntu-BI.ttf', 300, '"' + arg1 + '"')
