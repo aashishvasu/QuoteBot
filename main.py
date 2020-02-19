@@ -1,6 +1,7 @@
 import CreateImage
 import sys
 
+# Check if there are any CLI arguments, else prompt user on screen
 if len(sys.argv) > 2:
     arg1 = sys.argv[1]
     arg2 = sys.argv[2]
